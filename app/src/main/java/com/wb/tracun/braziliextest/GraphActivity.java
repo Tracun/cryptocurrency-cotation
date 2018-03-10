@@ -1,10 +1,7 @@
 package com.wb.tracun.braziliextest;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.Toast;
 
 import org.eazegraph.lib.charts.ValueLineChart;
 import org.eazegraph.lib.models.ValueLinePoint;
@@ -20,7 +17,7 @@ public class GraphActivity extends AppCompatActivity {
         showGraph();
     }
 
-    //Test Graph
+    //ResponsePrivateAPI Graph
     void showGraph(){
         ValueLineChart mCubicValueLineChart = (ValueLineChart) findViewById(R.id.coinChart);
 
